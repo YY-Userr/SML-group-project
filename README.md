@@ -21,8 +21,8 @@ install.packages(c(
   "shiny", "leaflet", "leaflet.extras", "dplyr",
   "readr", "sf", "plotly", "ggplot2", "jsonlite",
   "lubridate", "DT", "shinyjs", "memoise", "rlang", "RColorBrewer"
-))```
-
+))
+```
 ## API Setup
 
 The app uses the **OpenWeather API** to display real-time and forecast weather.  
