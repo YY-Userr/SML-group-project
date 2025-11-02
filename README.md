@@ -22,3 +22,15 @@ install.packages(c(
   "readr", "sf", "plotly", "ggplot2", "jsonlite",
   "lubridate", "DT", "shinyjs", "memoise", "rlang", "RColorBrewer"
 ))
+
+## API Setup
+
+The app uses the **OpenWeather API** to display real-time and forecast weather.  
+Before running the app, you must export the API key to your environment.
+
+### macOS / Linux
+Open **Terminal** and run:
+```bash
+export OPENWEATHER_KEY="d1eda37b18dcabae86e4c4be437d17e3"
+open -a RStudio
+
